@@ -6,13 +6,10 @@ app.use(express.json())
 
 const PORT = 3000
 
-app.get('/', (_req, res)=>{
-    console.log('ping');
-    res.send('pong') 
+app.use('/api/countries', router)
+
+app.listen(PORT, () => {
+  console.log(`server running on port ${PORT}`)
 })
 
-app.use('/api/diaries', router)
-
-app.listen(PORT, ()=>{
-    console.log(`server running on port ${PORT}`)
-})
+console.log('test')

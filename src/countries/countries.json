@@ -1,5 +1,6 @@
 [
     {
+      "id": 1,
       "name": "Afghanistan",
       "topLevelDomain": [
         ".af"
@@ -92,6 +93,7 @@
     },
     
     {
+      "id": 2,
       "name": "Åland Islands",
       "topLevelDomain": [
         ".ax"
